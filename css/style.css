@@ -7,7 +7,7 @@
 body
 {
     font-family: MyFirstFont;
-    font-size: 22px;
+    font-size: 20px;
 
     background-color: black;
     color: rgb(57,255,20); 
@@ -41,7 +41,7 @@ input
 {
     width: 250px;
     font-family: MyFirstFont;
-    font-size: 22px;
+    font-size: 20px;
     margin:0em auto 1em auto;
     display:block;
     border-radius:12px; 
@@ -80,7 +80,7 @@ button
 {
     width: 250px;
     font-family: MyFirstFont;
-    font-size: 22px;
+    font-size: 20px;
     margin:0em auto 1em auto;
     display:block;
     border-radius:12px; 
