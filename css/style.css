@@ -1,0 +1,109 @@
+@font-face {
+    font-family: MyFirstFont;
+
+    src: url(font/Hack-Regular.ttf);   
+}
+
+body
+{
+    font-family: MyFirstFont;
+    font-size: 22px;
+
+    background-color: black;
+    color: rgb(57,255,20); 
+}
+
+#jstree_div
+{
+    width: 610px;
+    //margin: auto;
+    margin-left: 25px;
+}
+
+.bottom_margin
+{
+    margin-bottom: 50px;
+}
+
+li
+{
+    display: block;
+    overflow-x:hidden;
+    width: 600px;
+}
+
+::placeholder {
+    color: rgb(57,255,20);
+    opacity: 1;
+}
+
+input
+{
+    width: 250px;
+    font-family: MyFirstFont;
+    font-size: 22px;
+    margin:0em auto 1em auto;
+    display:block;
+    border-radius:12px; 
+    border:2px solid rgb(57,255,20);
+    color:rgb(57,255,20);
+    background-color: black;
+}
+
+input[type=text] {       
+    padding: 4px 8px;
+    border-radius: 12px; 
+}
+input[type=text]:focus{
+    outline: none;      
+    box-shadow: 0 0 0 2px black; 
+}
+/*placeholder center*/
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+}
+
+:-ms-input-placeholder {  
+    text-align: center; 
+}
+
+
+button
+{
+    width: 250px;
+    font-family: MyFirstFont;
+    font-size: 22px;
+    margin:0em auto 1em auto;
+    display:block;
+    border-radius:12px; 
+    border:2px solid rgb(57,255,20);
+    color:rgb(57,255,20);
+    background-color: black;
+}
+
+button:active 
+{ 
+    outline: none; 
+}
+
+button:focus 
+{ 
+    outline:none; 
+}
+
+.row 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
