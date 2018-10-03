@@ -84,6 +84,11 @@ $("#tree_browsing").on("click", "#youtube", function()
     window.open('https://www.youtube.com/','_blank');
 });
 
+$("#tree_browsing").on("click", "#qdownloader", function() 
+{
+    window.open('https://qdownloader.net/','_blank');
+});
+
 $("#tree_browsing").on("click", "#savefrom_net", function() 
                        {
     window.open('https://en.savefrom.net/','_blank');
@@ -113,9 +118,9 @@ $("#tree_browsing").on("click", "#subscene", function()
 
 
 
-$("#tree_browsing").on("click", "#torrentz", function() 
+$("#tree_browsing").on("click", "#torrentz2", function() 
 {
-    window.open('https://toptorrentz.com/','_blank');
+    window.open('https://torrentz2.eu/my','_blank');
 });
 
 $("#tree_browsing").on("click", "#thepiratebay", function() 
